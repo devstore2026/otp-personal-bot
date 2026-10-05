@@ -1,0 +1,20 @@
+{
+  "name": "5sim-personal-otp-bot",
+  "version": "1.0.0",
+  "description": "Personal Telegram bot for buying OTP numbers via 5SIM API v1 (single admin only)",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5",
+    "telegraf": "^4.16.3"
+  }
+}
